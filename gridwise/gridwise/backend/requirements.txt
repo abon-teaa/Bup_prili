@@ -1,0 +1,11 @@
+fastapi==0.141.1
+uvicorn==0.52.0
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pulp==3.3.2
+scipy==1.18.1
+numpy==2.5.3
+google-genai==2.24.0
+openai==2.50.0
+httpx==0.28.1
+pytest==9.1.1

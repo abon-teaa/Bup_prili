@@ -1,0 +1,21 @@
+[
+  {
+    "scenario_id": "test_scenario_01",
+    "operator_notes": [
+      "Cloud cover will reduce solar generation by 30% from 12 PM to 2 PM.",
+      "Keep battery reserve at 50% between 18:00 and 22:00 for emergency backup."
+    ],
+    "hours_sample": {
+      "demand_kwh": 50,
+      "solar_kwh": 80,
+      "tariff_bdt_per_kwh": 10
+    },
+    "battery": {
+      "capacity_kwh": 200,
+      "initial_energy_kwh": 50,
+      "minimum_energy_kwh": 20,
+      "max_charge_kwh_per_hour": 40,
+      "max_discharge_kwh_per_hour": 40
+    }
+  }
+]
