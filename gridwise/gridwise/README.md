@@ -5,7 +5,7 @@ BUP CSE FEST 2026 | Preliminary Round Submission[cite: 11]
 GridWise is an HTTP service that receives a 24-hour campus energy scenario along with natural-language operator notes[cite: 11]. It uses an LLM to parse unstructured directives, validates them through deterministic guardrails, and solves a 24-hour constrained optimization problem to minimize total grid electricity cost (BDT) while maintaining microgrid rules[cite: 11].
 
 ---
-
+## Demo video : https://drive.google.com/file/d/1a6cT7O-bGbull_yJ2TXRFO-mzfxV08JU/view?usp=sharing
 ## Architecture & Flow
 
 * **LLM Directive Parser:** Uses a language model (e.g., OpenAI GPT-4o-mini) to translate unstructured `operator_notes` into structured `directive_interpretation` entries[cite: 11].
